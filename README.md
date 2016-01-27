@@ -13,7 +13,7 @@
 Jump around plugin for [Oh My Fish][omf-link].
 
 ## Install
-> _Note_: You need to have `z` installed.
+> _Note_: You need to have `z` installed, either by cloning [rupa/z](https://github.com/rupa/z) or by installing **z** via Homebrew.
 
 
 ```fish
@@ -27,7 +27,12 @@ You can do so by adding the following snippet to your `.config/fish/config.fish`
 sourcing Oh My Fish.
 
 ```
-set -g Z_SCRIPT_PATH #path
+set -gx Z_SCRIPT_PATH #path-to-z.sh
+```
+
+If installed via Homebrew:
+```
+set -gx Z_SCRIPT_PATH /usr/local/etc/profile.d/z.sh
 ```
 
 ## Usage
