@@ -1,1 +1,1 @@
-test available z
+test type -q z
