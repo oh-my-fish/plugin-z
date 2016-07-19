@@ -27,7 +27,7 @@ You can do so by adding the following snippet to your `~/.config/fish/config.fis
 sourcing Oh My Fish.
 
 ```
-set -g Z_SCRIPT_PATH #path
+set -g Z_SCRIPT_PATH <PATH_TO_Z_SCRIPT_FILE>
 ```
 
 ## Usage
