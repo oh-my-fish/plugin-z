@@ -23,7 +23,7 @@ $ omf install z
 ## Configuration
 
 In order to use `z`, it's necessary to specify the script file path.
-You can do so by adding the following snippet to your `.config/fish/config.fish` file before
+You can do so by adding the following snippet to your `~/.config/fish/config.fish` file before
 sourcing Oh My Fish.
 
 ```
