@@ -11,7 +11,7 @@ function z -d "jump around"
   " bash $argv ^| read -l Z_PWD
   set -l Z_STATUS $status
 
-  # If z changed directories, reflrect that in the current process.
+  # If z changed directories, reflect that in the current process.
   if test $Z_PWD != $PWD
     builtin cd $Z_PWD
   end
