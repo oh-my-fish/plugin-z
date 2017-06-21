@@ -8,27 +8,19 @@
 </div>
 <br>
 
-#  [_z_](https://github.com/rupa/z)
+#  [_z_][z]
 
-Jump around plugin for [Oh My Fish][omf-link].
+Plugin for [Oh My Fish][omf-link] that brings [z], the jump around utility, to Fish.
 
 ## Install
-> _Note_: You need to have `z` installed.
-
 
 ```fish
 $ omf install z
 ```
 
-## Configuration
+The upstream script will be installed and updated automatically with the Oh My Fish plugin. No additional configuration is needed.
 
-In order to use `z`, it's necessary to specify the script file path.
-You can do so by adding the following snippet to your `~/.config/fish/config.fish` file before
-sourcing Oh My Fish.
-
-```
-set -g Z_SCRIPT_PATH <PATH_TO_Z_SCRIPT_FILE>
-```
+Bash must be installed, as z is written using Bash.
 
 ## Usage
 
@@ -45,6 +37,7 @@ $ z
 [author]:         http://github.com/bpinto
 [contributors]:   https://github.com/oh-my-fish/plugin-z/graphs/contributors
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
+[z]:              https://github.com/rupa/z
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
 [travis-badge]:   http://img.shields.io/travis/oh-my-fish/plugin-z.svg?style=flat-square
