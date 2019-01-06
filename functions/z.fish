@@ -8,7 +8,7 @@ function z -d "jump around"
     Z_STATUS=$?
     echo "$PWD" >&2
     exit $Z_STATUS
-  ' bash $argv ^| read -l Z_PWD
+  ' bash $argv 2>| read -l Z_PWD
   set -l Z_STATUS $status
 
   # If z changed directories, reflect that in the current process.
