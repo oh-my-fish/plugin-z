@@ -13,7 +13,7 @@ function z -d "jump around"
 
   # If z changed directories, reflect that in the current process.
   if test $Z_PWD != $PWD
-    builtin cd $Z_PWD
+    cd $Z_PWD
   end
 
   return $Z_STATUS
