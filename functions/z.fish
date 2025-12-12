@@ -13,7 +13,10 @@ function z -d "jump around"
 
   # If z changed directories, reflect that in the current process.
   if test $Z_PWD != $PWD
+    set -l oldpwd $PWD
     builtin cd $Z_PWD
+    set -g dirprev $oldpwd $dirprev
+    set -e dirnext
   end
 
   return $Z_STATUS
